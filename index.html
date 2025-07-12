@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <form action="" method="post">
+
+        <label for="name">Customer Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="size">Smoothie Size:</label>
+        <select name="size" id="size">  
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+
+        <label for="mainIngredient">Choose the main ingredient:</label>
+        <select name="mainIngredient" id="mainIngredient" required>
+            <option value="milk">Milk</option>
+            <option value="almond">Almond Milk</option>
+            <option value="yogurt">Plain Yogurt</option>
+            <option value="fruit">Fruit Juice</option>
+        </select>
+        <label for="fruits">Choose Fruits:</label>
+        <select name="fruits" id="fruits">
+            <option value="banana">Banana</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="mango">Mango</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="pineapple">Pineapple</option>
+        </select>
+
+        <label for="extras">Extras</label>
+        <input type="checkbox" name="extras" value="protein">Protein Powder<br>
+        <input type="checkbox" name="extras" value="chia">Chia Seeds<br>
+        <input type="checkbox" name="extras" value="honey">Honey <br>
+        <input type="checkbox" name="extras" value="mint">Mint <br>
+
+        <label for="instructions">Special Instructions:</label>
+        <textarea name="instructions" id="instructions"></textarea>
+
+        <button type="submit">Submit Order</button>
+
+    </form>
+</body>
+</html>
