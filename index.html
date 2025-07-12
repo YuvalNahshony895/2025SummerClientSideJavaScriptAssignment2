@@ -4,50 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2</title>
-    <script src="script.js " defer></script>
+    <script src="script.js "></script>
 </head>
 <body>
-    <form id="smoothieForm">
+    <h2>Order Smoothie</h2>
 
-        <label for="name">Customer Name:</label>
-        <input type="text" id="name" name="name" required>
+    <form id="smoothieForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" required>
 
         <label for="size">Smoothie Size:</label>
-        <select name="size" id="size">  
+        <select id="size"required>
             <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
         </select>
 
-        <label for="mainIngredient">Choose the main ingredient:</label>
-        <select name="mainIngredient" id="mainIngredient" required>
-            <option value="milk">Milk</option>
+        <label for="main">Choose Main Ingredient:</label>
+        <select id="main">
             <option value="almond">Almond Milk</option>
-            <option value="yogurt">Plain Yogurt</option>
-            <option value="fruit">Fruit Juice</option>
+            <option value="yogurt">Yogurt</option>
+            <option value="coconut">Coconut Water</option>
+            <option value="orange">Orange Juice</option>
         </select>
-        <label for="fruits">Choose Fruits:</label>
-        <select name="fruits" id="fruits">
+
+        <label for="fruit">Choose fruit:</label>
+        <select id="fruit">
             <option value="banana">Banana</option>
             <option value="strawberry">Strawberry</option>
-            <option value="mango">Mango</option>
             <option value="blueberry">Blueberry</option>
-            <option value="pineapple">Pineapple</option>
+            <option value="mango">Mango</option>
         </select>
-
-        <label for="extras">Extras</label>
-        <input type="checkbox" name="extras" value="protein">Protein Powder<br>
-        <input type="checkbox" name="extras" value="chia">Chia Seeds<br>
-        <input type="checkbox" name="extras" value="honey">Honey <br>
-        <input type="checkbox" name="extras" value="mint">Mint <br>
-
-        <label for="instructions">Special Instructions:</label>
-        <textarea name="instructions" id="instructions"></textarea>
-
-        <button type="submit">Submit Order</button>
-
-    </form>
-
-    <p id="output"></p>
+    </form>    
 </body>
 </html>
