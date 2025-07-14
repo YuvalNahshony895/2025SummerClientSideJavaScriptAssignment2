@@ -1,20 +1,21 @@
+/* basic styling to the body of the page*/
 body {
-    font-family: Arial;
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
+    font-family: Arial; /* Arial font*/
+    padding: 20px; /*add space around content */
+    max-width: 600px; /*maximum width of content */
+    margin: auto; /* center the content horizontally */
 }
-
+/* style for the form */
 form {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* space below the form */
     
 }
-
+/* style for the labels in the form */
 label {
-    display: block;
+    display: block; 
     margin-bottom: 5px;
 }
-
+/* style for the p's that show outputs */
 p {
     margin-top: 20px;
     padding: 10px;
