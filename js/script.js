@@ -43,19 +43,19 @@ class smoothieOrder extends Smoothie {
     };
     // Sets the image source based on fruit
     if (this.fruit == "Banana"){
-        smoothieCup.setAttribute("src", "/images/banana.png");
+        smoothieCup.setAttribute("src", "images/banana.png");
         document.getElementById("imageAttr").innerHTML="<a href='https://pngtree.com/freepng/banana-smoothie-drink-composition-watercolor_14631298.html'>png image from pngtree.com/</a>"
     }
     else if (this.fruit == "Strawberry"){
-        smoothieCup.setAttribute("src", "/images/strawberry.png");
+        smoothieCup.setAttribute("src", "images/strawberry.png");
         document.getElementById("imageAttr").innerHTML="<a href='https://https://www.freepik.com/free-vector/hand-painted-watercolor-smoothies-blender-glass-illustration_13839324.htm#fromView=keyword&page=1&position=0&uuid=dae3cd3d-028c-4455-831d-1a5f32e33a49&query=Strawberry+Smoothie'>png image from freepik.com</a>"
     }
     else if (this.fruit == "Blueberry"){
-        smoothieCup.setAttribute("src", "/images/blueberry.png");
+        smoothieCup.setAttribute("src", "images/blueberry.png");
         document.getElementById("imageAttr").innerHTML="<a href='https://www.freepik.com/free-vector/illustration-fruit-smoothie-drink-watercolor-style_2782931.htm#fromView=search&page=1&position=0&uuid=410ec575-b181-44fc-82cf-cffd9eff117b&query=blueberry+smoothie+clipart'>png image from freepik.com</a>"
     }
     else if (this.fruit == "Mango"){
-        smoothieCup.setAttribute("src", "/images/mango.png");
+        smoothieCup.setAttribute("src", "images/mango.png");
         document.getElementById("imageAttr").innerHTML="<a href='https://www.freepik.com/free-vector/hand-painted-watercolor-smoothies-blender-glass-illustration_13839324.htm#fromView=keyword&page=1&position=0&uuid=dae3cd3d-028c-4455-831d-1a5f32e33a49&query=Strawberry+Smoothie'>png image from freepik.com</a>"
     };
     //Adding the image to the page
