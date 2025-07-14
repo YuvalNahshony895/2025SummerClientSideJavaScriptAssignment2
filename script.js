@@ -14,7 +14,7 @@ class smoothieOrder extends Smoothie {
         super(name, size, main, fruit);
     }
     description(){
-        return `name: ${this.name}, ordered a ${this.size} ${this.fruit} smoothie with ${this.main}`;
+        return `${this.name} ordered a ${this.size} ${this.fruit} smoothie with ${this.main}`;
     };
 }
 
